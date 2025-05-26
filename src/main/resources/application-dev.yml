@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    primary:
+      url: jdbc:postgresql://localhost:5432/dataservices_dev
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/dataservices_dev
+
+logging:
+  level:
+    com.dataservices: DEBUG
+    org.springframework.web: DEBUG
